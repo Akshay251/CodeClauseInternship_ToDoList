@@ -1,0 +1,126 @@
+
+
+
+
+
+
+.main_div{
+  background: #a7e2ec;
+  min-height: 100vh;
+  max-height: auto;
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+html{
+  margin: 0;
+  padding: 0;
+}
+
+.center_div{
+  background: rgb(83, 84, 82);
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 65%;
+  max-height: auto;
+  width: 50%;
+  max-width: auto;
+  border-radius: 8%;
+  box-shadow: 4px 4px 50px black;
+  padding: 2%;
+}
+
+#heading{
+  text-align: center;
+  display: block;
+  justify-content: center;
+  font-family: 'Sigmar', cursive;
+  font-size: xx-large;
+  font-weight:bolder;
+  color: rgb(153, 153, 244);
+  text-shadow: 0px 0px 10px rgb(0, 0, 0);
+  transition: 1s;
+}
+
+#heading:hover{
+  cursor: pointer;
+  color: rgb(27, 11, 248);
+  text-shadow: 0px 0px 30px rgb(87, 87, 235);
+}
+
+.add{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+
+#addtext{
+  color: white;
+}
+
+#addicon{
+  margin: auto;
+  margin-left: 15%;
+  color: #a7e2ec;
+}
+
+#addicon:hover{
+  color: rgb(2, 255, 2);
+  cursor: pointer;
+}
+
+#clear{
+  margin: auto;
+  margin-left: 5%;
+  color: #a7e2ec;
+}
+
+#clear:hover{
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+}
+
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 100%;
+  max-width: fit-content;
+}
+
+li{
+  list-style: none;
+  color: #5ad2e8;
+  font-family: 'Sigmar', cursive;
+  min-width: 100%;
+  max-width: fit-content;
+  
+}
+
+li::first-letter{
+  text-transform: capitalize;
+}
+
+.list_items{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  margin-left: 5%;
+  align-items: center;
+  min-width: 100%;
+  max-width: auto;
+  gap: 5%;
+  padding: 1%;
+}
+
+#delicon{
+  color: #a7e2ec;
+}
+
+#delicon:hover{
+  color: red;
+  cursor: pointer;
+}
